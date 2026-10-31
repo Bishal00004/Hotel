@@ -143,6 +143,13 @@
 }
 
 @media (max-width: 760px) {
+  /* A backdrop filter creates a containing block for fixed descendants.
+     Disable it so the mobile drawer and backdrop stay viewport-sized. */
+  .site-header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
   .nav-bar {
     min-height: 68px;
     padding: 0 18px;
