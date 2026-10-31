@@ -1,46 +1,47 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import siteAsset from "../utils/siteAsset";
 import "../stylesheet/Gallery.css";
 
 const galleryImages = [
   {
-    src: "/Images/gallary/out.jpg",
+    src: siteAsset("Images/gallary/out.jpg"),
     title: "Golden hour by the water",
     category: "The grounds",
     alt: "A resort pool and garden beneath a colorful sunset",
   },
   {
-    src: "/Images/gallary/food-day.jpg",
+    src: siteAsset("Images/gallary/food-day.jpg"),
     title: "A place at the table",
     category: "Dining",
     alt: "A relaxed restaurant table set for a meal",
   },
   {
-    src: "/Images/gallary/food%20night.jpg",
+    src: siteAsset("Images/gallary/food night.jpg"),
     title: "An evening to savor",
     category: "Dining",
     alt: "An evening meal served beside a city view",
   },
   {
-    src: "/Images/gallary/buff.jpg",
+    src: siteAsset("Images/gallary/buff.jpg"),
     title: "Good food, shared slowly",
     category: "Dining",
     alt: "A plated meal in a softly lit restaurant",
   },
   {
-    src: "/Images/gallary/images.jpg",
+    src: siteAsset("Images/gallary/images.jpg"),
     title: "A warm welcome",
     category: "The hotel",
     alt: "A hotel entrance framed by gardens at dusk",
   },
   {
-    src: "/Images/gallary/garden.jpg",
+    src: siteAsset("Images/gallary/garden.jpg"),
     title: "A quiet corner outdoors",
     category: "The grounds",
     alt: "A green garden seating area in the afternoon light",
   },
   {
-    src: "/Images/gallary/inside.jpg",
+    src: siteAsset("Images/gallary/inside.jpg"),
     title: "A room with a view",
     category: "Stay awhile",
     alt: "A bright hotel room opening onto a city view",

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import BookingForm from "./BookingForm";
+import siteAsset from "../utils/siteAsset";
 import "../stylesheet/Home.css";
 
 const Home = () => {
@@ -15,7 +16,7 @@ const Home = () => {
           preload="metadata"
           aria-hidden="true"
         >
-          <source src="/video.mp4" type="video/mp4" />
+          <source src={siteAsset("video.mp4")} type="video/mp4" />
         </video>
         <div className="hotel-hero__overlay" aria-hidden="true" />
 

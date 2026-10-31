@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import siteAsset from "../utils/siteAsset";
 import "../stylesheet/Contact.css";
 
 const Contact = () => (
@@ -19,7 +20,7 @@ const Contact = () => (
     <section className="contact-card" aria-label="Hotel contact details">
       <div className="contact-card__image">
         <img
-          src="/Images/gallary/inside.jpg"
+          src={siteAsset("Images/gallary/inside.jpg")}
           alt="A welcoming hotel room with a view through open doors"
         />
         <span>YOUR NEXT STAY STARTS WITH A CONVERSATION</span>

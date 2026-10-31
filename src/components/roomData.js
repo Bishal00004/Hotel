@@ -1,10 +1,12 @@
+import siteAsset from "../utils/siteAsset";
+
 const rooms = [
   {
     slug: "city-view",
     number: "01",
     title: "The city view",
     label: "CITY VIEW",
-    image: "/Images/rooms/first.jpg",
+    image: siteAsset("Images/rooms/first.jpg"),
     alt: "A warm guest room with a city view through the window",
     summary: "A calm place to end the day with the city just beyond the window.",
     description:
@@ -16,7 +18,7 @@ const rooms = [
     number: "02",
     title: "Golden-hour comfort",
     label: "WARM & WELCOMING",
-    image: "/Images/rooms/second.jpg",
+    image: siteAsset("Images/rooms/second.jpg"),
     alt: "A softly lit guest room with a large bed and warm wood details",
     summary: "Soft light, layered textures, and a little room to slow down.",
     description:
@@ -28,7 +30,7 @@ const rooms = [
     number: "03",
     title: "Room to unwind",
     label: "SPACIOUS RETREAT",
-    image: "/Images/rooms/third.jpg",
+    image: siteAsset("Images/rooms/third.jpg"),
     alt: "A spacious guest room with a bed, sitting area, and bathroom",
     summary: "A generous-feeling retreat with space to rest and recharge.",
     description:
@@ -40,7 +42,7 @@ const rooms = [
     number: "04",
     title: "Stay together",
     label: "TWIN ROOM",
-    image: "/Images/rooms/fourth.jpg",
+    image: siteAsset("Images/rooms/fourth.jpg"),
     alt: "A guest room with two separate beds",
     summary: "A welcoming twin-bed layout for friends or family traveling together.",
     description:
@@ -52,7 +54,7 @@ const rooms = [
     number: "05",
     title: "Quietly considered",
     label: "SIGNATURE ROOM",
-    image: "/Images/rooms/fifth.jpg",
+    image: siteAsset("Images/rooms/fifth.jpg"),
     alt: "An elegant guest room with a chandelier and a king bed",
     summary: "Warm materials and thoughtful details create a restful atmosphere.",
     description:
@@ -64,7 +66,7 @@ const rooms = [
     number: "06",
     title: "Wake up to the view",
     label: "WATER VIEW",
-    image: "/Images/rooms/sixth.jpg",
+    image: siteAsset("Images/rooms/sixth.jpg"),
     alt: "A bright bedroom opening onto a blue ocean view",
     summary: "A light-filled room with a wide outlook toward the water.",
     description:
@@ -76,7 +78,7 @@ const rooms = [
     number: "07",
     title: "A little more room",
     label: "TWIN ROOM",
-    image: "/Images/rooms/seventh.jpg",
+    image: siteAsset("Images/rooms/seventh.jpg"),
     alt: "A modern guest room with two beds and warm lighting",
     summary: "Settle in with comfortable space to share and make your own.",
     description:
